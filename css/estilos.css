@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-:root{
+:root
+{
   --azulclaro: #48D6ED;
   --azuloscuro: #337AB7;
   --azulnegro: #303342;
@@ -16,47 +17,54 @@
 *{
     margin:0;
 }
-body{
+body
+{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
  
-  h1,h2,h3,h4,h5{
+  h1,h2,h3,h4,h5
+  {
     font-family: 'Marcellus', serif;
   }
 
-
-
-.item{
+.item
+    {
     padding: 1rem;
     }
-    nav a{
+    nav a
+    {
         color: var(--blanco);
         text-decoration: none;
     }
-    .logo img{
+    .logo img
+    {
         height: 3rem;
     }
 
-    #features{
+    #features
+    {
         background: url(../img/bg-features.png);
         color: white;
         padding-top: 1rem;
     }
      
-    .features-title{
+    .features-title
+    {
         background-color: rgba(0,0,0,0.35);
         text-align: center;
         padding: 0.5rem;
         font-size: 1.5em;
     }
 
-    .features-description{
+    .features-description
+    {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .feature{
+    .feature
+    {
         width: 25%;
         min-width: 180px;
         max-width: 230px;
@@ -69,58 +77,70 @@ body{
         border-radius: 5px;
     }
      
-    .feature i{
+    .feature i
+    {
         font-size: 2.2em;
         margin-bottom: 1.5rem;
     }
     
-    .feature-blue{
+    .feature-blue
+    {
         background-color: #00325eae;
     }
      
-    .feature-black{
+    .feature-black
+    {
         background-color: rgba(0,0,0,0.59);
     }
     
-    .logo{
+    .logo
+    {
         background-color: var(--negro2);
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 1rem;
     }
-    .logo img{
+    .logo img
+    {
         width: 40%;
         max-width: 200px;   
     }
-    .logo i{
+    .logo i
+    {
         color: var(--blanco);
         font-size: 2rem;
     }
-    .menu{
+    .menu
+    {
         background-color: rgba(1, 10, 52, 0.838);
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;  
     }
-    .menu-hr{
+    .menu-hr
+    {
         width: 90%;
         background-color: var(--blanco);
     }
-    .item{
+    .item
+    {
     padding: 1rem;
     }
-    nav a{
+    nav a
+    {
         color: var(--blanco);
         text-decoration: none;
         text-align: center;
     }
-    nav a:hover{
+    nav a:hover
+    {
         background-color: #0B3860;
         width: 100%;
     }
-    .navbar-button{
+    .navbar-button
+    {
         background-color:transparent;
         border: none;
         border-radius: 3px;
@@ -130,48 +150,59 @@ body{
         color: var(--blanco);
     }
     /*Resolución tablet*/
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px)
+    {
        
     }
     /*Resolución notebooks*/
-    @media screen and (min-width: 1024px){
+    @media screen and (min-width: 1024px)
+    {
           
-        nav{
+        nav
+        {
             display: flex;
             flex-direction: row; /*cambiamos la disposición de los elementos*/
             width: 100%;
             justify-content: space-between;
             background-color: var(--negro2);
         }
-        .logo{
+        .logo
+        {
             padding: 1rem;
         }
-        .logo img{
+        .logo img
+        {
             width: 100%;
             max-width: 180px;       
         }
-        .logo i{  /*ocultamos el ícono bars del menú hamburguesa*/
+        .logo i
+        {  /*ocultamos el ícono bars del menú hamburguesa*/
             display: none;
         } 
-        .menu{
+        .menu
+        {
             background-color: var(--negro2);
             display: flex;
             flex-direction: row;
             align-items: center;
         }
-        .men    u-hr{ /*ocultamos la barra de división*/
+        .men    u-hr
+        { /*ocultamos la barra de división*/
             display: none;
         }
-        .navbar-button{
+        .navbar-button
+        {
             background-color:var(--azuloscuro);
         }       
     }
     /*Resolución notebooks*/
-    @media screen and (min-width: 1308px){
+    @media screen and (min-width: 1308px)
+    {
         
     }
     
-    #caminar{
+    #caminar
+    {
         background: url(../img/slide1.jpg);
         color: white;
         width: 100%;
@@ -180,7 +211,8 @@ body{
 
     }
 
-    .caminar-title{
+    .caminar-title
+    {
         font-family: 'Roboto', sans-serif;
         background: linear-gradient(to right,rgba(0,0,0,0.60), transparent);
         
@@ -190,52 +222,50 @@ body{
 
     }
 
-
-    
-
-    .caminar-description{
+    .caminar-description
+    {
         display: flex; 
         align-items:flex-start;
-        justify-content: flex-start;
-
-       
+        justify-content: flex-start;       
     }
 
-    #texto{
+    #texto
+    {
         width: 100%;
         height: 500px;
         background-repeat: no-repeat;
-
     }
 
-    .texto-title{
-        
+    .texto-title
+    {
         font-size: 1.0em;
         margin-left: 120px;
         margin-right: 400px;
         margin-top: 50px;
     }
 
-    .texto-description{
+    .texto-descrip
+    {
         display: flex; 
         align-items:center;
         justify-content: flex-start;
-
     }
 
-    #campana{
+    #icono
+    {
         margin-top: 50px;
         margin-right: 160px;
     }
   
-    .ubicanos-title{
-        
+    .ubicanos-title
+    {
         text-align: center;
         padding: 0.5rem;
         font-size: 3.5em;
     }
 
-    .map{
+    .mapa
+    {
         display: flex;
         justify-content: center;
         width: 100%;
@@ -243,43 +273,41 @@ body{
         margin-top: 8px;
     }
 
-    .mapas{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-left: 8px;
-        margin-top: 8px;
-    }
-
-    #direccion {
+    #direccion 
+    {
         display: flex;
         justify-content: center;
     }
-    hr{
+    hr
+    {
         height: 2px;
         background-color: lightskyblue;
         width: 70%;
         margin-left: 20%;
     }
 
-    #numero {
+    #telefono
+    {
         display: flex;
         justify-content: center;
     }
 
-    .container{
+    .container
+    {
         height: 200px;
         overflow: hidden;
         position: relative;
         margin: 50px auto;
     }
 
-    .container img{
+    .container img
+    {
         width: 100%;
         height: 100%;
     }
 
-    .container p{
+    .container p
+    {
         font-family: 'Marcellus', serif;
         font-size: 3rem;
         color: white;
@@ -291,13 +319,15 @@ body{
 
     /* COMENTARIOS */
 
-    .opinionesconte{
+    .opinionesconte
+    {
         display: flex;
         justify-content: space-around;
+        margin-top: -130px;
     }
 
-    .opiniones{
-        
+    .opiniones
+    {    
         background-image: url(../img/Group\ 200.svg);
         background-repeat: no-repeat;
         width: 350px;
@@ -308,7 +338,8 @@ body{
         border-radius: 10px;
     }
 
-    .imagen{
+    .imagen
+    {
         width: 50px;
         height: 50px;
         border-radius: 50%;
@@ -316,81 +347,91 @@ body{
         margin-right: 40px;
     }
 
-    .imagen img {
+    .imagen img
+    {
         width: 100%;
         height: 100%;
         object-fit: center;
     }
 
-    .perfil{
+    .perfil
+    {
         display: flex;
         align-items: center;
     }
 
-    .nameuser{
+    .nameuser
+    {
         font-family: 'Marcellus', serif;
         display: flex;
         flex-direction: column;
     }
 
-    .nameuser strong{
+    .nameuser strong
+    {
         color: white;
         display: flex;
         align-items: center;
         font-size: 1.5rem;
     }
 
-    .stars{
-        color: white;
+    .stars
+    {
+    color: white;
     margin-left: 90px;
     margin-bottom: 30px;
-}
-    .comentarios{
+    }
+    .comentarios
+    {
         color: white;
     }
     
-/* FOOTER */
+    /* FOOTER */
 
-.pagina{
-    font-family: 'Marcellus', serif;
-    background-color: black;
-    height: 420px;
-}
+    .pagina
+    {
+        font-family: 'Marcellus', serif;
+        background-color: black;
+        height: 420px;
+    }
 
-.description{
-    display: flex;
-    justify-content: flex-start;
-    font-family: 'Marcellus', serif;
-    color: white;
-    font-size: 1.5rem;
-    margin-right: 260px;
-    margin-left: 100px;
-    margin-bottom: 50px;
-}
+    .description
+    {
+        display: flex;
+        justify-content: flex-start;
+        font-family: 'Marcellus', serif;
+        color: white;
+        font-size: 1.5rem;
+        margin-right: 260px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
 
-.sociales{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    color: white;
-}
+    .redessoci
+    {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        color: white;
+    }
 
-.sociales i{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: 0.1rem;
-    color: white;
-    font-size: 40px;
-    margin-left: 70px;
-    margin-bottom: 55px;
-}
+    .sociales i
+    {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        padding: 0.1rem;
+        color: white;
+        font-size: 40px;
+        margin-left: 70px;
+        margin-bottom: 55px;
+    }
 
-.telefonos{
-    font-family: 'Marcellus', serif;
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-size: 25px;
-
-}
+    .telefonos
+    {
+        font-family: 'Marcellus', serif;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 25px;
+    }
