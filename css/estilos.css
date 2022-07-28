@@ -298,6 +298,7 @@ body
         overflow: hidden;
         position: relative;
         margin: 50px auto;
+        
     }
 
     .container img
@@ -323,7 +324,7 @@ body
     {
         display: flex;
         justify-content: space-around;
-        margin-top: -130px;
+        margin-top: -140px;
     }
 
     .opiniones
@@ -360,14 +361,14 @@ body
         align-items: center;
     }
 
-    .nameuser
+    .nombreusuario
     {
         font-family: 'Marcellus', serif;
         display: flex;
         flex-direction: column;
     }
 
-    .nameuser strong
+    .nombreusuario strong
     {
         color: white;
         display: flex;
@@ -388,50 +389,63 @@ body
     
     /* FOOTER */
 
-    .pagina
-    {
-        font-family: 'Marcellus', serif;
-        background-color: black;
-        height: 420px;
+    .pie-pagina{
+        width: 100%;
+        background-color:  #000;
     }
-
-    .description
+    .pie-pagina .grupo-1
     {
-        display: flex;
-        justify-content: flex-start;
-        font-family: 'Marcellus', serif;
-        color: white;
-        font-size: 1.5rem;
-        margin-right: 260px;
-        margin-left: 100px;
-        margin-bottom: 50px;
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:50px;
+        padding: 45px 0px;
     }
-
-    .redessoci
+    .pie-pagina .grupo-1 .box figure
     {
-        display: flex;
-        align-items: flex-end;
-        justify-content: flex-start;
-        color: white;
-    }
-
-    .sociales i
-    {
-        display: flex;
-        align-items: flex-end;
-        justify-content: flex-start;
-        padding: 0.1rem;
-        color: white;
-        font-size: 40px;
-        margin-left: 70px;
-        margin-bottom: 55px;
-    }
-
-    .telefonos
-    {
-        font-family: 'Marcellus', serif;
+        width: 100%;
+        height: 100%;
         display: flex;
         justify-content: center;
-        color: white;
-        font-size: 25px;
+        align-items: center;
+    }
+    .pie-pagina .grupo-1 .box figure img
+    {
+        width: 250px;
+    }
+    .pie-pagina .grupo-1 .box h2
+    {
+        color: #fff;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    .pie-pagina .grupo-1 .box p
+    {
+        color: #efefef;
+        margin-bottom: 10px;
+    }
+    .pie-pagina .grupo-1 .red-social a
+    {
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        color: #fff;
+        text-align: center;
+    }
+    .pie-pagina .grupo-1 .red-social a:hover
+    {
+        color: aqua;
+    }
+    @media screen and (max-width:800px)
+    {
+        .pie-pagina .grupo-1
+        {
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap:30px;
+            padding: 35px 0px;
+        }
     }
