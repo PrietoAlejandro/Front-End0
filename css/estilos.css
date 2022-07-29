@@ -36,11 +36,15 @@ body
     {
         color: var(--blanco);
         text-decoration: none;
+        
     }
-    .logo img
+    nav a:hover
     {
-        height: 3rem;
+        color: var(--blanco);
+        text-decoration: none;
+        text-align: center;
     }
+    
 
     #features
     {
@@ -95,11 +99,11 @@ body
     
     .logo
     {
-        background-color: var(--negro2);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1rem;
+    background-color: var(--negro2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
     }
     .logo img
     {
@@ -420,6 +424,11 @@ body
     
     /* FOOTER */
 
+    .box i
+    {
+        color: white;
+    }
+    
     .pie-pagina{
         width: 100%;
         background-color:  #000;
