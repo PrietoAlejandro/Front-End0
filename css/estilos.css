@@ -122,6 +122,8 @@ body
         margin-top: -19px;
     }
 
+
+    
     /*Resolución mobile*/
     @media screen and (min-width: 320px)
     {
