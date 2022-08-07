@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root
+{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+#fondologin
+    {
+        display: flex;   
+        justify-content: center;
+        width: 100%;
+        height: 762px;
+        position: relative;
+    }
+    .feature2
+    {              
+        background: url(../img/Untitled.svg);
+        width: 100%;
+        min-width: 30px;
+        max-width: 346px;
+        height: 50%;
+        margin: 4.5rem;
+        padding: 1rem;        
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .feature2 i{
+        background-color: var(--Magenta);
+        color: var(--blanco);
+        align-items: flex-start;
+        border-radius: 100px;
+        padding: 9%;
+        font-size: 1.8em;
+    }
+    .reg{
+        color: #000;        
+        text-decoration: none;
+    }
+    .nomb
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: -7em;
+        font-size: 100px;
+    }
+    
+    .feature feature-blue
+    {
+        background-color:rgba(40, 137, 216, 0.548);                
+    }
+    .imagennn
+    {
+        width: 10%;
+    }
+    #loginform
+    {
+        padding-top: 19%;
+    }
+    .logousu
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .button
+    {
+        background-color: #000;
+        color: white;
+        font-size: 20px;
+        width: 97%;
+    }
+    .imagenho
+    {
+        height: 50px;
+        margin-left: 194px;
+        margin-top: 88px;
+        position: relative;
+    }
+    /*Resolución mobile*/
+    @media screen and (min-width: 320px) 
+    {
+        #fondologin
+    {
+        display: flex;
+        justify-content: center;
+        background: url(../img/habitacion.jpeg);
+        width: 192%;
+        height: 763px;
+        position: relative;
+    }
+    .feature2
+    {              
+        background: url(../img/Untitled.svg);
+        width: 100%;
+        min-width: 30px;
+        max-width: 346px;
+        height: 50%;
+        margin: 4.5rem;
+        padding: 1rem;        
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .feature2 i{
+        background-color: var(--Magenta);
+        color: var(--blanco);
+        align-items: flex-start;
+        border-radius: 100px;
+        padding: 9%;
+        font-size: 1.8em;
+    }
+    .reg{
+        color: #000;        
+        text-decoration: none;
+    }
+    .nomb
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: -7em;
+        font-size: 100px;
+    }
+    
+    .feature feature-blue
+    {
+        background-color:rgba(40, 137, 216, 0.548);                
+    }
+    .imagennn
+    {
+        width: 10%;
+    }
+    #loginform
+    {
+        padding-top: 19%;
+    }
+    .logousu
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .button
+    {
+        background-color: #000;
+        color: white;
+        font-size: 20px;
+        width: 97%;
+    }
+    .imagenho
+    {
+        height: 50px;
+        margin-left: 150px;
+        margin-top: 88px;
+        position: relative;
+    }
+    }
+    /*Resolución Nootebock*/
+    @media screen and (min-width: 1024px) 
+    {
+        #fondologin
+    {
+        display: flex;   
+        justify-content: center;
+        background: url(../img/habitacion.jpeg);
+        width: 100%;
+        height: 762px;
+        position: relative;
+    }
+    .feature2
+    {              
+        background: url(../img/Untitled.svg);
+        width: 100%;
+        min-width: 30px;
+        max-width: 346px;
+        height: 50%;
+        margin: 4.5rem;
+        padding: 1rem;        
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .feature2 i{
+        background-color: var(--Magenta);
+        color: var(--blanco);
+        align-items: flex-start;
+        border-radius: 100px;
+        padding: 9%;
+        font-size: 1.8em;
+    }
+    .reg{
+        color: #000;        
+        text-decoration: none;
+    }
+    .nomb
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: -7em;
+        font-size: 100px;
+    }
+    
+    .feature feature-blue
+    {
+        background-color:rgba(40, 137, 216, 0.548);                
+    }
+    .imagennn
+    {
+        width: 10%;
+    }
+    #loginform
+    {
+        padding-top: 19%;
+    }
+    .logousu
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .button
+    {
+        background-color: #000;
+        color: white;
+        font-size: 20px;
+        width: 97%;
+    }
+    .imagenho
+    {
+        height: 50px;
+        margin-left: 194px;
+        margin-top: 88px;
+        position: relative;
+    }
+    }
