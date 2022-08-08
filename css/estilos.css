@@ -396,6 +396,7 @@ body
  align-items: flex-end;
  background-size: cover;
  margin-top: 0.1%;
+ margin-top: 0px;
  }
  .caminar-title
  {
@@ -501,7 +502,7 @@ body
  { 
  background-image: url(../img/Group\ 200.svg);
  background-repeat: no-repeat;
- width: 350px;
+ width: 270px;
  height: 156px;
  box-shadow: 2px 2px 30px rgba(0, 0 , 0, 0.1);
  background-color: white;
@@ -510,13 +511,13 @@ body
  margin: 55px;
  border-radius: 10px;
  position: absolute;
- left: 1200px;
+ left: 652px;
  }
  .opiniones2
  { 
  background-image: url(../img/Group\ 200.svg);
  background-repeat: no-repeat;
- width: 350px;
+ width: 270px;
  height: 156px;
  box-shadow: 2px 2px 30px rgba(0, 0 , 0, 0.1);
  background-color: white;
@@ -524,14 +525,14 @@ body
  margin: 55px;
  border-radius: 10px;
  position: absolute;
- left: 660px;
+ left: 318px;
  
  }
  .opiniones3
  { 
  background-image: url(../img/Group\ 200.svg);
  background-repeat: no-repeat;
- width: 350px;
+ width: 270px;
  height: 156px;
  box-shadow: 2px 2px 30px rgba(0, 0 , 0, 0.1);
  background-color: white;
@@ -539,8 +540,7 @@ body
  margin: 55px;
  border-radius: 10px;
  position: absolute;
- right: 45px;
- left: 115px;
+ left: -45px;
  }
 
  .imagen
