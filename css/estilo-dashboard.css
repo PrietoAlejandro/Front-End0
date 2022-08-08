@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root
+{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+*
+{
+    margin: 0%;
+}
+body
+{
+    font-family: 'Marcellus', serif;
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5
+{
+    font-family: 'Marcellus', serif;
+}
+section
+{
+    display: flex;
+}
+.nombreCorreo .fotoPerfil #foto
+{
+    display: none;
+    width: 4em;
+    height: 4em;
+    justify-content: center;
+    align-items: center;
+}
+.menu
+{
+    width: 17%;   
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;  
+    position: fixed;
+}
+.lista
+{
+    display: flex;
+    flex-direction: column;
+}
+.lista a i
+{
+    display: flex;
+    align-items: center;
+}
+.menuarriba
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7%;
+    height: 30%;  
+    background: url(../img/Group\ 200\ 1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logohotelia img
+{
+    width: 60%;   
+}
+.logohotelia .mobile
+{
+    display: none;
+}
+.logohotelia
+{
+    display: flex;
+    justify-content: center;
+}
+.nombreemail
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.nombreemail img
+{
+    display: none;
+}
+.opciones
+{
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    background-color: rgb(51, 51, 71);
+    display: flex;
+    flex-direction: column;
+}
+.cerrarSesion
+{
+    width: 100%;
+}
+.cerrarSesion a
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.205);
+    display: flex;
+    justify-content: end;
+}
+a
+{     
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-size: 1.2em;
+}
+i#icono
+{
+    transition: .3s all ease;
+    margin: 5%;
+    color: white;
+    margin-right: 10%;
+}
+.link:hover
+{
+      background-color: var(--azuloscuro);
+      width: 90%;
+      height: 100%;
+}
+.menuder
+{
+    height: 100vh;
+    background-image: url(../img/Fondoreg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor
+{
+    width: 70%;
+    height: 90vh;
+    margin-left: 17%;
+    border-radius: 1%;
+    background-color: rgba(255, 255, 255, 0.575);
+    display: flex;
+    flex-direction: column;
+}
+.menuderabajo
+{
+    display: flex;
+    flex-direction: row;
+}
+.fotomenuder
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fotomenuder img
+{
+    border-radius: 5%;
+    margin-bottom: 5%;
+    width: 61%;
+    height: 10em;
+}
+.formulario-container
+{
+    width: 75%;
+    height: 140%;
+}
+.cargararchivos
+{
+    width: 70%;
+    height: 7%;
+    background-color: #337AB7;
+    margin-top: 7%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+.cargararchivos i
+{
+    font-size: 1.5em;
+    margin: 2% 8% 2% 8%;
+    color: white;
+}
+.password
+{
+    width: 70%;
+    height: 14%;
+    border-radius: 2%;
+    background-color: var(--negro);
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.password a
+{
+    font-size: .8em;
+    padding-bottom: 10%;
+}
+.contenedor .tituloBienvenido
+{
+    width: 57%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
+}
+.Datos
+{
+    
+    width: 100%;
+    margin: 1em;
+    margin-left: -1.2%;
+}
+.contenedor2
+{
+    display: flex;
+    justify-content: space-around;
+}
+.formulario
+{
+    
+    display: flex;
+    flex-direction: column;
+}
+.formulario input
+{
+    width: 25em;
+    height: 2em;
+    border: none;
+    margin-left: 2px;
+    border-bottom: 2px solid var(--gris);
+}
+.formulario input[type=radio]
+{
+    width: 5em;
+}
+.formulario .radio
+{
+    display: flex;
+    padding: 0em;
+    
+}
+.formulario.separador
+{
+    margin-left: -6%;
+}
+.contenedor3
+{
+    display: flex;
+    margin: 0.5em;
+}
+.formulario a
+{
+    display:    flex;
+    background: var(--negro);
+    width: 7em;
+    height: 2em;
+    border-radius: .2em;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.formulario label
+{
+    
+    color: black;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: -0.8em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.formulario a h2
+{
+    font-weight: 100;
+}
+.iconos
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario.separador
+{
+    margin-left: 4%;
+}
+
+
+/********************/
+
+@media screen and (max-width: 320px)
+{
+    .logohotelia .desktop
+    {
+        display: none;
+    }
+    .logohotelia .mobile
+    {
+        display: block;
+    }
+    .nombreCorreo .fotop #foto
+    {
+        display: flex;
+        height: 3em;
+        width: 3em;
+    }
+    .nombreCorreo img
+    {
+        display: block;
+        max-width: 40px;
+        width: 100%;
+        border-radius: 8%;
+    }
+    .nombreCorreo
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    .nombreCorreo h3,h4
+    {
+        display: none;
+    }
+    .cargararchivos .icon_1
+    {
+        display: none;
+    }
+    .lista a p
+    {
+        display: none;
+    }
+    .lista a
+    {
+        justify-content: center;
+    }
+    .cerrarSesion a p
+    {
+        display: none;
+    }
+    .cerrarSesion a
+    {
+        justify-content: center;
+    }
+    .opciones
+    {
+        justify-content: space-around;
+    }
+    .opciones a i:hover
+    {
+        background: var(--azuloscuro);
+        justify-content: center;
+        width: 100%;
+    }
+    .cerrarSesion a:hover
+    {
+        background: var(--azuloscuro);
+        width: 100%;
+    }
+    .tituloBienvenido
+    {
+        margin-bottom: 2%;
+        margin-left: 10%;
+    }
+    .contenedor
+    {
+        margin-left: 20%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .menuder
+    {
+        height: 1%;
+    }
+    .menuderabajo
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .fotomenuder
+    {
+        margin-left: 0;
+    }
+    .fotomenuder img 
+    {
+        width: 60%;
+        height: 14em;
+    }
+    .cargararchivos
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 2em;
+        margin-bottom: 20%;
+        margin: 2%;
+    }
+    .password
+    {
+        font-size: 0.8em;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10%;
+    }
+    .left-formulario input
+    {
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .right-formulario input
+    {
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+    .contenedor2
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor2
+    {
+        margin: 1em;
+    }
+    .formulario input
+    {
+        width: 90%;
+    }
+    .formulario input[type=radio]
+    {
+        width: 2em;
+    }
+    .contenedor3
+    {
+        margin: 1em;
+    }
+    .formulario a
+    {
+        width: 8em;
+    }
+    .password
+    {
+        display: none;
+    }
+    .formulario.separador2
+    {
+        margin-left: -90%;
+        margin-top: 56px;
+    }
+    .formulario.tel
+    {
+    margin-left: 4%;
+    margin-top: 32px;
+    }
+    .formulario .radio
+    {
+        margin-left: 2%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1300px)
+{
+    .fotomenuder img 
+    {
+        display: none;
+    }
+    .cargararchivos
+    {
+        display: none;
+    }
+    .password
+    {
+        display: none;
+    }
+}
