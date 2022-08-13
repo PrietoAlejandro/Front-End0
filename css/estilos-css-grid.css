@@ -78,7 +78,7 @@
     }
     .logo i 
     {
-        grid-area: menu-bars;
+        grid-area: 'menu-bars';
         justify-self: end;
         color: var(--blanco);
         font-size: 2rem;
@@ -88,6 +88,15 @@
         grid-area: menu;
         display: grid;
         background-color: rgba(1, 10, 52, 0.838);
+    }
+    .menu
+    {
+        display: none;
+    }
+    .menu.active
+    {
+        display: grid;
+        transform: translateY(0%);
     }
     .menu-hr 
     {
@@ -107,7 +116,6 @@
         text-decoration: none;
         text-align: center;
     }
-    
     nav a:hover 
     {
         background-color: #0B3860;
@@ -238,6 +246,7 @@
             margin-left: 3%;
             margin-top: 8px;
         }
+        
     
         #direccion 
         {
@@ -456,10 +465,10 @@
         grid-template-columns: 200px auto;
         grid-template-areas: 
         "logo menu";
-        
+        width: 100%;
     }
     .logo img
-    {
+        {
         width: 100%;
      }
      .logo i
@@ -472,6 +481,15 @@
         display: grid;
         grid-template-columns: auto auto auto auto;
         justify-self: end;
+    }
+    .menu
+    {
+        display: none;
+    }
+    .menu.active
+    {
+        display: grid;
+        transform: translateY(0%);
     }
     .menu-hr
     {
