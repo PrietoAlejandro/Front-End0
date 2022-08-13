@@ -482,10 +482,7 @@
         grid-template-columns: auto auto auto auto;
         justify-self: end;
     }
-    .menu
-    {
-        display: none;
-    }
+    
     .menu.active
     {
         display: grid;
