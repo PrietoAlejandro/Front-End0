@@ -1,489 +1,376 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-:root
-{
-  --azulclaro: #48D6ED;
-  --azuloscuro: #337AB7;
-  --azulnegro: #303342;
-  --negro: #333333;
-  --negro2: #000;
-  --gris: #B2B3B3;
-  --fondo: #FFFEFC;
-  --verdeazul: #157A8A;
-  --Magenta: #9C2759;
-  --blanco: #fff;
-  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+:root{
+--azulclaro: #48D6ED;
+--azuloscuro: #337AB7;
+--azulnegro: #303342;
+--negro: #333333;
+--negro2: #000;
+--gris: #B2B3B3;
+--fondo: #FFFEFC;
+--verdeazul: #157A8A;
+--Magenta: #9C2759;
+--blanco: #fff;
+--degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
 }
-*
-{
-    margin: 0%;
+
+*{
+    margin:0;
 }
-body
-{
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;    
+}
+
+h1,h2,h3,h4,h5{
     font-family: 'Marcellus', serif;
-    font-size: 16px;
 }
-h1,h2,h3,h4,h5
+@media screen and (min-width: 320px)
 {
-    font-family: 'Marcellus', serif;
-}
-section
-{
-    display: flex;
-}
-.nombreCorreo .fotoPerfil #foto
-{
-    display: none;
-    width: 4em;
-    height: 4em;
-    justify-content: center;
-    align-items: center;
-}
-.menu
-{
-    width: 17%;   
-    color: white;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;  
-    position: fixed;
-}
-.lista
-{
-    display: flex;
-    flex-direction: column;
-}
-.lista a i
-{
-    display: flex;
-    align-items: center;
-}
-.menuarriba
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 7%;
-    height: 30%;  
-    background: url(../img/Group\ 200\ 1.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.logohotelia img
-{
-    width: 60%;   
-}
-.logohotelia .mobile
-{
-    display: none;
-}
-.logohotelia
-{
-    display: flex;
-    justify-content: center;
-}
-.nombreemail
-{
-    display: flex;
-    justify-content: flex-end;
-}
-.nombreemail img
-{
-    display: none;
-}
-.opciones
-{
-    padding: 3%;
-    display: flex;
-    justify-content: space-between;
+
+.fondodash{
+    display: flex;               
+    background: url(../img/slide2.png);
+    width: 100%;
     height: 100%;
-    background-color: rgb(51, 51, 71);
-    display: flex;
-    flex-direction: column;
 }
-.cerrarSesion
+.feature-blue5
 {
-    width: 100%;
+    background-color: #313e4b;
 }
-.cerrarSesion a
-{
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.205);
-    display: flex;
-    justify-content: end;
-}
-a
-{     
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: white;
-    font-size: 1.2em;
-}
-i#icono
-{
-    transition: .3s all ease;
-    margin: 5%;
-    color: white;
-    margin-right: 10%;
-}
-.link:hover
-{
-      background-color: var(--azuloscuro);
-      width: 90%;
-      height: 100%;
-}
-.menuder
-{
-    height: 100vh;
-    background-image: url(../img/Fondoreg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.contenedor
-{
-    width: 70%;
-    height: 90vh;
-    margin-left: 17%;
-    border-radius: 1%;
-    background-color: rgba(255, 255, 255, 0.575);
-    display: flex;
-    flex-direction: column;
-}
-.menuderabajo
-{
-    display: flex;
-    flex-direction: row;
-}
-.fotomenuder
-{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.fotomenuder img
-{
-    border-radius: 5%;
-    margin-bottom: 5%;
-    width: 61%;
-    height: 10em;
-}
-.formulario-container
-{
-    width: 75%;
-    height: 140%;
-}
-.cargararchivos
-{
-    width: 70%;
-    height: 7%;
-    background-color: #337AB7;
-    margin-top: 7%;
-    padding-bottom: 2%;
-    display: flex;
-    justify-content: center;
-}
-.cargararchivos i
-{
-    font-size: 1.5em;
-    margin: 2% 8% 2% 8%;
-    color: white;
-}
-.password
-{
-    width: 70%;
-    height: 14%;
-    border-radius: 2%;
-    background-color: var(--negro);
-    margin-top: 7%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.password a
-{
-    font-size: .8em;
-    padding-bottom: 10%;
-}
-.contenedor .tituloBienvenido
-{
-    width: 57%;
-    height: 10%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;    
-}
-.Datos 
-{
-    
-    width: 100%;
-    margin: 1em;
-    margin-left: -1.2%;
-}
-.contenedor2
-{
-    display: flex;
-    justify-content: space-around;
-}
-.formulario
-{
-    
-    display: flex;
-    flex-direction: column;
-}
-.formulario input
-{
-    width: 25em;
-    height: 2em;
-    border: none;
-    margin-left: 2px;
-    border-bottom: 2px solid var(--gris);
-}
-.formulario input[type=radio]
-{
-    width: 5em;
-}
-.formulario .radio
-{
-    display: flex;
-    padding: 0em;
-    
-}
-.formulario.separador
-{
-    margin-left: -6%;
-}
-.contenedor3
-{
-    display: flex;
-    margin: 0.5em;
-}
-.formulario a
-{
-    display:    flex;
-    background: var(--negro);
-    width: 7em;
-    height: 2em;
-    border-radius: .2em;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
-}
-.formulario label
-{
-    
-    color: black;
-    font-size: 1.2em;
-    font-weight: 500;
-    padding: -0.8em;
+.feature5{                         
+    width: 90%;
+    min-width: 20px;
+    max-width: 70px;            
+    height: 969px;                    
     display: flex;
     flex-wrap: wrap;
-}
-.formulario a h2
-{
-    font-weight: 100;
-}
-.iconos
-{
-    display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-content: flex-start;            
+}
+.feature-white6
+{            
+background-color:   #eaeff3e8;
+}
+.feature6{                         
+    width: 100%;
+    min-width: 10px;
+    max-width: 100%;
+    height: 90%;
+    margin: 1.1rem;               
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;    
+    justify-content: center;
+    border-radius: 5px;
+}        
+.formulariodash{
+    width: 100%;
+    display: flex;            
+    flex-wrap: wrap;        
+    justify-content: center;
+}
+.fotopersona{           
+    align-content: center;   
+    display: flex;                         
+    flex-direction: column;
+}
+.logodash2{                      
+    max-width: 120px;
+    max-height: 120px;
+}
+.butpass{          
+       
+    width: 0px;
+    background-color: rgb(39, 39, 39);
+    color: #efefef;
+    font-size: 0px;
+    font-family: Marcellus;
+    
+    
+}
+.itemfoto{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #3078b7;
+    margin-top: 10px;
+    color: var(--blanco);
+    text-align: center;
+    font-size: 18px;
+}
+.formact{         
+    width: 100%;                 
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 25px;
+}
+.dashimg{
+    max-width: 70px;
+    max-height: 70px;
+}
+.logodash{
+    max-width: 160px;
+    max-height: 160px;            
+    margin-top: -260px;
+    margin-right: 40px;            
+}       
+.dat{                   
+    font-size: 0px;
+    color: var(--blanco);
+    
+} 
+nav a:hover{
+    background-color: #3078b7;
+    width: 100%;
+}
+.menu2{                  
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    width: 100%;
+    
 }
-.formulario.separador
-{
-    margin-left: 4%;
+.item2{
+    font-size: 0px;
+    font-family: Marcellus;
+    text-decoration: none;    
+    padding: 1rem;
+    }
+    .item2 i{
+        font-size: 20px;
+    }
+.itemclose{
+    background-color: #4d5965;        
+    margin-top: 415px;
+    width: 100%;
+    font-size: 0px;
+    font-family: Marcellus;
+}
+.itemclose i{
+    font-size: 20px;
+}
+.navbar-button2{
+    background-color: #313e4b;
+    width: 100%;
+    margin-right: -30px;
 }
 
 
-/********************/
+#ti2{
+    font-size: 20px;
+    font-family: Marcellus;
+}
+.butact{                    
+    width: 200px;
+    background-color: rgb(39, 39, 39);
+    color: #efefef;
+    font-size: 1    0px;
+    font-family: Marcellus;
+    border-radius: 5px;
+    
+}
+.botonact{
+    margin-right: 400px;
+    margin-top: 10px;
+    text-align: left;
+}
+.buting{     
+           
+    width: 200px;
+    background-color: rgb(39, 39, 39);
+    color: #efefef;
+    font-size: 10px;
+    font-family: Marcellus;
+    border-radius: 5px;
+    
+}
+.botoning{
+    margin-right: 400px;
+    margin-top: 10px;
+    text-align: left;
+}
+.persimg{            
+    text-align: center;
+    max-width: 200px;
+    max-height: 800px;
+}
 
-@media screen and (max-width: 320px) and (max-width: 768px)
+}
+
+
+
+@media screen and (min-width:1024px )
 {
-    .logohotelia .desktop
+
+    .fondodash
     {
-        display: none;
-    }
-    .logohotelia .mobile
-    {
-        display: block;
-    }
-    .nombreCorreo .fotop #foto
-    {
-        display: flex;
-        height: 3em;
-        width: 3em;
-    }
-    .nombreCorreo img
-    {
-        display: block;
-        max-width: 40px;
+        display: flex;               
+        background: url(../img/slide2.png);
         width: 100%;
-        border-radius: 8%;
-    }
-    .nombreCorreo
-    {
-        justify-content: center;
-        align-items: center;
-    }
-    .nombreCorreo h3,h4
-    {
-        display: none;
-    }
-    .cargararchivos .icon_1
-    {
-        display: none;
-    }
-    .lista a p
-    {
-        display: none;
-    }
-    .lista a
-    {
-        justify-content: center;
-    }
-    .cerrarSesion a p
-    {
-        display: none;
-    }
-    .cerrarSesion a
-    {
-        justify-content: center;
-    }
-    .opciones
-    {
-        justify-content: space-around;
-    }
-    .opciones a i:hover
-    {
-        background: var(--azuloscuro);
-        justify-content: center;
-        width: 100%;
-    }
-    .cerrarSesion a:hover
-    {
-        background: var(--azuloscuro);
-        width: 100%;
-    }
-    .tituloBienvenido
-    {
-        margin-bottom: 2%;
-        margin-left: 10%;
-    }
-    .contenedor
-    {
-        margin-left: 20%;
-        display: flex;
-        flex-direction: column;
         height: 100%;
     }
-    .menuder
+    .feature-blue5
     {
-        height: 1%;
+        background-color: #313e4b;
     }
-    .menuderabajo
-    {
-        display: flex;
-        flex-direction: column;
-    }
-    .fotomenuder
-    {
-        margin-left: 0;
-    }
-    .fotomenuder img 
-    {
-        width: 60%;
-        height: 14em;
-    }
-    .cargararchivos
-    {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 70%;
-        height: 2em;
-        margin-bottom: 20%;
-        margin: 2%;
-    }
-    .password
-    {
-        font-size: 0.8em;
-        width: 100%;
-        height: 100%;
-        margin-bottom: 10%;
-    }
-    .left-formulario input
-    {
-        margin-top: 5%;
-        margin-bottom: 10%;
-    }
-    .right-formulario input
-    {
-        margin-top: 5%;
-        margin-bottom: 8%;
-    }
-    .contenedor2
-    {
-        display: flex;
-        flex-direction: column;
-    }
-    .contenedor2
-    {
-        margin: 1em;
-    }
-    .formulario input
-    {
+    .feature5
+    {                         
         width: 90%;
+        min-width: 20px;
+        max-width: 270px;            
+        height: 969px;                    
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-content: flex-start;            
     }
-    .formulario input[type=radio]
-    {
-        width: 2em;
+    .feature-white6
+    {            
+    background-color:   #eaeff3e8;
     }
-    .contenedor3
-    {
-        margin: 1em;
+    .feature6{                         
+        width: 100%;
+        min-width: 10px;
+        max-width: 100%;
+        height: 90%;
+        margin: 2.4rem;
+        padding: 10px;         
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;    
+        justify-content: center;
+        border-radius: 5px;
+    }        
+    .formulariodash{
+        width: 100%;            
+        display: flex;                        
+        flex-wrap: nowrap;
+        
     }
-    .formulario a
-    {
-        width: 8em;
+    .fotopersona{   
+        margin-left: 5%;
+        align-content: space-between;                  
     }
-    .password
-    {
-        display: none;
+    .logodash2{      
+        margin-top: 20px;      
+        max-width: 200px;
+        max-height: 200px;
     }
-    .formulario.separador2
-    {
-        margin-left: -90%;
-        margin-top: 56px;
+    .butpass{          
+        margin-top: 25px;      
+        width: 200px;
+        background-color: rgb(39, 39, 39);
+        color: #efefef;
+        font-size: 25px;
+        font-family: Marcellus;
+        border-radius: 5px;
     }
-    .formulario.tel
-    {
-    margin-left: 4%;
-    margin-top: 32px;
+    .itemfoto{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        background-color: #3078b7;
+        margin-top: 10px;
+        color: var(--blanco);
+        text-align: center;
+        font-size: 40px;
     }
-    .formulario .radio
-    {
-        margin-left: 2%;
+    .formact{                          
+        color: #000;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding: 25px;
     }
-}
+    .dashimg{
+        max-width: 270px;
+        max-height: 290px;
+    }
+    .logodash{
+        max-width: 160px;
+        max-height: 160px;            
+        margin-top: -260px;
+        margin-right: 40px;            
+    }       
+    .dat{           
+        margin-top: -80px;
+        font-size: 10px;
+        color: var(--blanco);
+        margin-right: -30px;
+    } 
+    nav a:hover{
+        background-color: #3078b7;
+        width: 100%;
+    }
+    .menu2{                  
+        display: flex;            
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        
+    }
+    .item2{
+        font-size: 20px;
+        font-family: Marcellus;
+        text-decoration: none;    
+        padding: 1rem;
+        }
+    .itemclose{
+        background-color: #4d5965;
+        padding: 1rem;
+        font-size: 20px;
+        margin-top: 415px;
+        width: 100%;
+        font-family: Marcellus;
+    }
+    .navbar-button2{
+        background-color: #313e4b;
+        width: 100%;
+        margin-right: -30px;
+    }
+    
+   
+    #ti2{
+        font-size: 40px;
+        font-family: Marcellus;
+    }
+    .butact{     
+               
+        width: 200px;
+        background-color: rgb(39, 39, 39);
+        color: #efefef;
+        font-size: 30px;
+        font-family: Marcellus;
+        border-radius: 5px;
+        
+    }
+    .botonact{
+        margin-right: 400px;
+        margin-top: 10px;
+        text-align: left;
+    }
+    .buting{     
+               
+        width: 200px;
+        background-color: rgb(39, 39, 39);
+        color: #efefef;
+        font-size: 30px;
+        font-family: Marcellus;
+        border-radius: 5px;
+        
+    }
+    .botoning{
+        margin-right: 400px;
+        margin-top: 10px;
+        text-align: left;
+    }
+    .persimg{            
+        text-align: center;
+        max-width: 200px;
+        max-height: 800px;
+    }
+    
 
-
-@media screen and (min-width: 1024px) and (max-width: 1300px)
-{
-    .fotomenuder img 
-    {
-        display: none;
-    }
-    .cargararchivos
-    {
-        display: none;
-    }
-    .password
-    {
-        display: none;
-    }
-}
+}       

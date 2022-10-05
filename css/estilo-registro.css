@@ -233,7 +233,7 @@ background-color:   #eaeff3e8;
         .fondoreg
         {
             display: flex;               
-            background: url(../IMG/Fondoreg.jpg);
+            background: url("./Fondoreg.jpg");
             width: 100%;
             height: 969px;
             flex-direction: column;
